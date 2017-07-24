@@ -1,33 +1,43 @@
 <html>
+    <head>
+        <style>
+            body{background-color:aqua}
+        </style>
+    </head>
+    <center>
     <body>
         <form action="/action_page.php">
-        First name <br><input type="text">
+        First name <br><input type="text" placeholder="Input first name">
         <br>
         <br>
         <br>
-        Last name<br><input type="text">
+        Last name<br><input type="text" placeholder="Input last name">
         <br>
         <br>
         <br>
-        Email<br><input type="text">
+        Email<br><input type="email" placeholder="email@yahoo.com">
         <br>
         <br>
         <br>
-        Birthdate<br><input type="text">
+        Birthdate<br><input type="date">
         <br>
         <br>
         <br>
-        Username<br><input type="text">
+        Username<br><input type="text" placeholder="Input username">
         <br>
         <br>
         <br>
-        Password<br><input type="password">
+        Password<br><input type="password" placeholder="Input password" required>
         <br>
         <br>
         <br>
-        type a paragraph that will remind you of your password<br><textarea rows="10" cols="50" name="comment" form="usrform"></textarea><br>
+        type a paragraph that will remind you of your password
+        <br>
+        <textarea rows="10" cols="50" name="comment" form="usrform" placeholder="Input text here"></textarea>
+        <br>
         <br>
         <input type="submit" value="submit">
         </form>
     </body>
+    </center>
 </html>
